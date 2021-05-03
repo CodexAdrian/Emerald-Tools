@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "emeraldtools",
+  "version": "${version}",
+  "name": "Emerald Tools",
+  "description": "A simple mod that adds tools made of emerald",
+  "authors": [
+    "Modded MC Studios"
+  ],
+  "contact": {
+    "homepage": "https://modded-mc.com/",
+    "sources": "https://github.com/CodexAdrian/Emerald-tools"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/examplemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.examplemod.fabric.ExampleModFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": ">=1.16.4",
+    "architectury": ">=1.1.55"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
