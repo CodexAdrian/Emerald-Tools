@@ -12,7 +12,7 @@ import net.minecraft.world.level.ItemLike;
 import java.util.function.Supplier;
 
 public enum NewTiers implements Tier {
-    EMERALD(3, 1561, 8.0F, 3.0F, 10, () -> {
+    EMERALD(3, 750, 10.0F, 2.0F, 15, () -> {
         return Ingredient.of(new ItemLike[]{Items.EMERALD});
     });
 
@@ -24,12 +24,12 @@ public enum NewTiers implements Tier {
     private final LazyLoadedValue repairIngredient;
 
 
-    private NewTiers(int j, int k, float f, float g, int l, Supplier<Ingredient> supplier) {
-            this.level = j;
-            this.uses = k;
-            this.speed = f;
-            this.damage = g;
-            this.enchantmentValue = l;
+    private NewTiers(int level, int uses, float speed, float damage, int enchantmentValue, Supplier<Ingredient> supplier) {
+            this.level = level;
+            this.uses = uses;
+            this.speed = speed;
+            this.damage = damage;
+            this.enchantmentValue = enchantmentValue;
             this.repairIngredient = new LazyLoadedValue(supplier);
         }
     @Override

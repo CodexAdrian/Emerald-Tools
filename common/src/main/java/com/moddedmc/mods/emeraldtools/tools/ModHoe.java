@@ -2,13 +2,12 @@ package com.moddedmc.mods.emeraldtools.tools;
 
 import com.moddedmc.mods.emeraldtools.NewTiers;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Tier;
 
-public class ModPickaxe extends PickaxeItem {
-
-    public ModPickaxe(int dmg, float speed) {
+public class ModHoe extends HoeItem {
+    public ModHoe(int dmg, float speed) {
         super(
                 NewTiers.EMERALD,
                 dmg,
