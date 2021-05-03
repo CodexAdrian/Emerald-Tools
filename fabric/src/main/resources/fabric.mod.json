@@ -9,14 +9,14 @@
   ],
   "contact": {
     "homepage": "https://modded-mc.com/",
-    "sources": "https://github.com/CodexAdrian/Emerald-tools"
+    "sources": "https://github.com/CodexAdrian/Emerald-Tools"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "All Rights Reserved",
+  "icon": "",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "com.moddedmc.mods.emeraldtools.fabric.EmeraldToolsFabric"
     ]
   },
   "depends": {
