@@ -12,7 +12,7 @@ public class ModSword extends SwordItem {
                 NewTiers.EMERALD,
                 dmg,
                 speed,
-                (new Item.Properties()).tab(CreativeModeTab.TAB_TOOLS)
+                (new Item.Properties()).tab(CreativeModeTab.TAB_COMBAT)
         );
     }
 }

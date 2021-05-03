@@ -12,7 +12,7 @@ import net.minecraft.world.level.ItemLike;
 import java.util.function.Supplier;
 
 public enum NewTiers implements Tier {
-    EMERALD(3, 750, 10.0F, 2.0F, 15, () -> {
+    EMERALD(3, 750, 10.0F, 2.5F, 15, () -> {
         return Ingredient.of(new ItemLike[]{Items.EMERALD});
     });
 
